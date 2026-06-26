@@ -21,7 +21,7 @@ header {
 }
 
 .lien {
-    color: #0eea20;
+    color: #ea0e0e;
     text-decoration: none;
     font-weight: 600;
 }
@@ -38,7 +38,7 @@ h1 {
 }
 
 .btn {
-    background: #0fdb00;
+    background: #db0000;
     color: white;
     border: none;
     padding: 10px 18px;
@@ -50,7 +50,7 @@ h1 {
 }
 
 .btn:hover {
-    background: #00c00d;
+    background: #c00000;
 }
 
 main {
@@ -59,7 +59,7 @@ main {
 }
 
 h2 {
-    color: #02dc23;
+    color: #dc0202;
     font-size: 24px;
 }
 
@@ -104,10 +104,9 @@ input[type="submit"] {
 }
 
 img {
-    width: 100%;
+    width: 50%;
     display: block;
     margin: 20px auto;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 .edt-tabs {
@@ -118,18 +117,16 @@ img {
 
 .edt-tab {
     padding: 0.55rem 1.4rem;
-    border: 2px solid #00d804;
+    border: 2px solid #d80000;
     border-radius: 8px;
     background: white;
-    color: #04d400;
+    color: #d40000;
     font-weight: 700;
-    font-size: 0.95rem;
-    cursor: pointer;
-    transition: background 0.18s, color 0.18s;
+    font-size: 1rem;
 }
 
 .edt-tab:hover {
-    background: #0acb00;
+    background: #cb0000;
     color: white;
 }
 
@@ -188,7 +185,7 @@ img {
     display: none;
     padding: 1rem 1.2rem;
     background: #f8fafc;
-    border-top: 2px solid #e2e8f0;
+    border-top: 2px;
     font-size: 0.92rem;
     color: #334155;
     line-height: 1.65;

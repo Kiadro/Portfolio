@@ -1,7 +1,3 @@
-// ════════════════════════════════
-// interactions de la page "portfolio"
-// ════════════════════════════════
-
 let nbLikes = 0;
 const boutonLike = document.getElementById("mon-bouton-like");
 if (boutonLike) {
@@ -12,10 +8,6 @@ boutonLike.textContent = "❤️ J'aime (" + nbLikes + ")";
 }
 
 
-// ════════════════════════════════
-// interactions de la page "contacter"
-// ════════════════════════════════
-
 const boutonEnvoyer = document.getElementById("bouton-envoyer");
 
 if (boutonEnvoyer) {
@@ -25,16 +17,11 @@ if (boutonEnvoyer) {
 }
 
 
-// ════════════════════════════════
-// interactions de la page "stage"
-// ════════════════════════════════
-
 // Bascule entre les semaines
-function showWeek(n, btn) {
+function showWeek(n) {
     document.querySelectorAll('.edt-week').forEach(el => el.classList.remove('visible'));
     document.querySelectorAll('.edt-tab').forEach(el => el.classList.remove('active'));
     document.getElementById('week-' + n).classList.add('visible');
-    btn.classList.add('active');
 }
 
 // Ouvre / ferme un jour
