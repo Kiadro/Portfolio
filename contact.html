@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Adrien Prate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="top-bar">
+            <a class="lien" href="index.html">← Retour à l'accueil</a>
+
+        </div>
+
+        <h1>Comment me contacter</h1>
+
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>Formulaire de contact</h2>
+            <form action="mailto:adrienprate@outlook.fr?subject=Message depuis le portfolio" method="post">
+
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telephone">Téléphone :</label>
+                <input type="tel" id="telephone" name="telephone" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" id="bouton-envoyer" class="btn">
+                    📩 Envoyer
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - Adrien PRATE | Epitech</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body> 

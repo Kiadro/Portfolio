@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - Adrien Prate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="top-bar">
+        <a class="lien" href="index.html">← Retour à l'accueil</a>
+    </div>
+    <h1>Mon stage de 2nd</h1>
+</header>
+
+<main>
+
+    <section class="card">
+
+        <div class="edt-tabs">
+            <button class="edt-tab active" onclick="showWeek(1, this)">Semaine 1</button>
+            <button class="edt-tab"        onclick="showWeek(2, this)">Semaine 2</button>
+        </div>
+
+        <!-- ───── Week 1 ───── -->
+        <div class="edt-week visible" id="week-1">
+            <div class="days-list">
+
+                <div class="day-item day-lundi" onclick="toggleDay(this)">
+                    <div class="day-header">
+                        <div>
+                            <span class="day-name">Lundi</span>
+                            <span class="day-activities">Présentation · Installation des PC · Web Portfolio</span>
+                        </div>
+                        <span class="day-arrow">▼</span>
+                    </div>
+                    <div class="day-body">
+                        <h3>Matin</h3>
+                            <p>J'ai débuté mon stage en faisant connaissance avec Mme. Déborah ABREU, les étudiant(e)s d'Epitech ainsi que les autres stagiaires de 2nd. Nous étions répartis en 3 équipes :</p>
+                            <ul>
+                                <li>🍄 Champignons</li>
+                                <li>⭐ Etoile</li>
+                                <li>🌼 Fleur</li>
+                            </ul>
+                            <p>Ainsi qu'en 2 groupes, le A et le B pour les conférences.</p>
+                            <p>Nous avons commencé par faire des jeux sociaux pour apprendre à mieux nous connaître puis nous avons installé les applications nécessaires pour les activités.</p>
+                        <h3>Après-midi</h3>
+                            <p>Nous avons démarré notre principal projet durant ce stage, le site web avec son portfolio !</p>
+                    </div>
+                </div>
+
+                <div class="day-item day-mardi" onclick="toggleDay(this)">
+                    <div class="day-header">
+                        <div>
+                            <span class="day-name">Mardi</span>
+                            <span class="day-activities">Conférence Cybersécurité · Web Portfolio · OSINT / CTF</span>
+                        </div>
+                        <span class="day-arrow">▼</span>
+                    </div>
+                    <div class="day-body">
+                        <p class="day-label">Ce que j'ai fait ce jour :</p>
+                        <p><!-- Décris ta journée du mardi semaine 1 ici --></p>
+                    </div>
+                </div>
+
+                <div class="day-item day-mercredi" onclick="toggleDay(this)">
+                    <div class="day-header">
+                        <div>
+                            <span class="day-name">Mercredi</span>
+                            <span class="day-activities">Conférence Transformation de l'IA · Poké Poireau · Algorithmie</span>
+                        </div>
+                        <span class="day-arrow">▼</span>
+                    </div>
+                    <div class="day-body">
+                        <p class="day-label">Ce que j'ai fait ce jour :</p>
+                        <p><!-- Décris ta journée du mercredi semaine 1 ici --></p>
+                    </div>
+                </div>
+
+                <div class="day-item day-jeudi" onclick="toggleDay(this)">
+                    <div class="day-header">
+                        <div>
+                            <span class="day-name">Jeudi</span>
+                            <span class="day-activities">Conférence Apprendre à Apprendre · Atelier Canard · Arduino</span>
+                        </div>
+                        <span class="day-arrow">▼</span>
+                    </div>
+                    <div class="day-body">
+                        <p class="day-label">Ce que j'ai fait ce jour :</p>
+                        <p><!-- Décris ta journée du jeudi semaine 1 ici --></p>
+                    </div>
+                </div>
+
+                <div class="day-item day-vendredi" onclick="toggleDay(this)">
+                    <div class="day-header">
+                        <div>
+                            <span class="day-name">Vendredi</span>
+                            <span class="day-activities">IA · Web Portfolio</span>
+                        </div>
+                        <span class="day-arrow">▼</span>
+                    </div>
+                    <div class="day-body">
+                        <p class="day-label">Ce que j'ai fait ce jour :</p>
+                        <p><!-- Décris ta journée du vendredi semaine 1 ici --></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ───── Week 2 ───── -->
+        <div class="edt-week" id="week-2">
+            <div class="days-list">
+
+                <div class="day-item day-lundi" onclick="toggleDay(this)">
+                    <div class="day-header">
+                        <div>
+                            <span class="day-name">Lundi</span>
+                            <span class="day-activities">Conférence Métiers AD2N-KPF · Témoignages étudiants · Web Portfolio</span>
+                        </div>
+                        <span class="day-arrow">▼</span>
+                    </div>
+                    <div class="day-body">
+                        <p class="day-label">Ce que j'ai fait ce jour :</p>
+                        <p><!-- Décris ta journée du lundi semaine 2 ici --></p>
+                    </div>
+                </div>
+
+                <div class="day-item day-mardi" onclick="toggleDay(this)">
+                    <div class="day-header">
+                        <div>
+                            <span class="day-name">Mardi</span>
+                            <span class="day-activities">Conférence IA Google · NASA · Morpion IA</span>
+                        </div>
+                        <span class="day-arrow">▼</span>
+                    </div>
+                    <div class="day-body">
+                        <p class="day-label">Ce que j'ai fait ce jour :</p>
+                        <p><!-- Décris ta journée du mardi semaine 2 ici --></p>
+                    </div>
+                </div>
+
+                <div class="day-item day-mercredi" onclick="toggleDay(this)">
+                    <div class="day-header">
+                        <div>
+                            <span class="day-name">Mercredi</span>
+                            <span class="day-activities">Conférence Cyber Stormshield · Métiers Jeux vidéo · Snake JS</span>
+                        </div>
+                        <span class="day-arrow">▼</span>
+                    </div>
+                    <div class="day-body">
+                        <p class="day-label">Ce que j'ai fait ce jour :</p>
+                        <p><!-- Décris ta journée du mercredi semaine 2 ici --></p>
+                    </div>
+                </div>
+
+                <div class="day-item day-jeudi" onclick="toggleDay(this)">
+                    <div class="day-header">
+                        <div>
+                            <span class="day-name">Jeudi</span>
+                            <span class="day-activities">Présentation orientation · Finir le Portfolio</span>
+                        </div>
+                        <span class="day-arrow">▼</span>
+                    </div>
+                    <div class="day-body">
+                        <p class="day-label">Ce que j'ai fait ce jour :</p>
+                        <p><!-- Décris ta journée du jeudi semaine 2 ici --></p>
+                    </div>
+                </div>
+
+                <div class="day-item day-vendredi" onclick="toggleDay(this)">
+                    <div class="day-header">
+                        <div>
+                            <span class="day-name">Vendredi</span>
+                            <span class="day-activities">Rapport de stage · Forum · Distribution du diplôme 🎉</span>
+                        </div>
+                        <span class="day-arrow">▼</span>
+                    </div>
+                    <div class="day-body">
+                        <p class="day-label">Ce que j'ai fait ce jour :</p>
+                        <p><!-- Décris ta journée du vendredi semaine 2 ici --></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
